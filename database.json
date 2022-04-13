@@ -1,43 +1,97 @@
 {
-    "animals": [
-        {
-            "id": 1,
-            "name": "Doodles",
-            "breed": "Poodle",
-            "customerId": 1,
-            "locationId": 2
-        },
-        {
-            "id": 2,
-            "name": "Fido",
-            "breed": "Beagle",
-            "customerId": 2,
-            "locationId": 1
-        }
-    ],
-    "customers": [
-        {
-            "id": 1,
-            "name": "Sydney Noh",
-            "address": "976 Software School Rd."
-        },
-        {
-            "id": 2,
-            "name": "Trevor Guinn",
-            "address": "123 NSS Ln"
-        }
-    ],
-    "employees": [],
-    "locations": [
-        {
-            "id": 1,
-            "name": "Nashville North",
-            "address": "8422 Johnson Pike"
-        },
-        {
-            "id": 2,
-            "name": "Nashville South",
-            "address": "209 Emory Drive"
-        }
-    ]
-  }
+  "animals": [
+    {
+      "id": 1,
+      "name": "Doodle",
+      "breed": "Poodle"
+    },
+    {
+      "id": 4,
+      "name": "Tofu",
+      "breed": "Shiba",
+      "customerId": 2,
+      "locationId": 1
+    },
+    {
+      "name": "Miso",
+      "breed": "Shiba",
+      "locationId": 2,
+      "customerId": 3,
+      "id": 5
+    }
+  ],
+  "customers": [
+    {
+      "id": 1,
+      "name": "Sydney Noh",
+      "address": "976 Software School Rd.",
+      "email": "sydney.n@nss.org"
+    },
+    {
+      "id": 2,
+      "name": "Trevor Guinn",
+      "address": "123 NSS Ln",
+      "email": "trevor.g@nss.org"
+    },
+    {
+      "id": 3,
+      "name": "Rue Bennet",
+      "address": "123 Euphoria Ln",
+      "email": "rue.bennet@hbo.max"
+    },
+    {
+      "id": 4,
+      "name": "Gia Bennet",
+      "address": "123 Euphoria Ln",
+      "email": "gia.bennet@hbo.max"
+    }
+  ],
+  "employees": [
+    {
+      "id": 1,
+      "name": "Jessica Jones",
+      "address": "123 Alias Way",
+      "locationId": 2
+    },
+    {
+      "id": 2,
+      "name": "Trish Walker",
+      "address": "456 Off The Rails Blvd",
+      "locationId": 1
+    },
+    {
+      "id": 3,
+      "name": "Luke Cage",
+      "address": "789 Bar Time Ln",
+      "locationId": 1
+    },
+    {
+      "id": 4,
+      "name": "Jeri Hogarth",
+      "address": "112 Cheater St",
+      "locationId": 2
+    }
+  ],
+  "locations": [
+    {
+      "id": 1,
+      "name": "Nashville North",
+      "address": "8422 Johnson Pike"
+    },
+    {
+      "id": 2,
+      "name": "Nashville South",
+      "address": "209 Emory Drive"
+    },
+    {
+      "id": 3,
+      "name": "Nashville West",
+      "address": "376 Idk Way"
+    },
+    {
+      "id": 4,
+      "name": "Nashville East",
+      "address": "452 Delete Me Ln"
+    }
+  ]
+}
